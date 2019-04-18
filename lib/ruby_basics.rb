@@ -20,10 +20,14 @@ def return_a_value(value = "Nice")
 
 end
 
-def last_evaluated_value
+def last_evaluated_value(value = "expert")
+  return value
+  puts value
 
 end
 
-def pizza_party
+def pizza_party(pizza = "cheese")
+  return pizza
+  puts pizza
 
 end
